@@ -1,0 +1,6 @@
+acbv02 -> true 
+33av3 -> true
+32baa3v4 -> false
+
+No he podido implementar la matriz en el programa pero he intentado comprobar
+las cadenas
