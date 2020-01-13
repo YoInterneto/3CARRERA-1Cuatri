@@ -20,11 +20,11 @@
 (define (sumaLista2 lista)
   (if(empty? lista) 0 (+ (car lista) (sumaLista(cdr lista)))))
 
-(define (mediaLista . lista)
+(define (mediaLista lista)
   (cond
     [(empty? lista) 0]
     [else (/ (apply + lista) (length lista))]))
 
 (define lista (list 5 5 5 5 3 3 3 3 ))
 (mediaLista lista)
-(mediaLista 0 1)
+(/(apply + lista)(length lista))

@@ -8,10 +8,13 @@
     [else (+ n (sumaMenores (- n 1)))])
 )
 
+
+(sumaMenores 6)
+
 (define (restaS m)
   (sumaMenores (- m 1)))
 
-(restaS 4)
+(restaS 6)
 
 #| Ejercicio 2 - mayor divisor |#
 (display "Ejercicio 2:\n")
